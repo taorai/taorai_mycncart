@@ -6,17 +6,18 @@ define('HTTP_SERVER', 'http://localhost/taorai/');
 define('HTTPS_SERVER', 'http://localhost/taorai/');
 
 // DIR
-define('DIR_APPLICATION', '/home/steven/Downloads/mycncart-mycncart-1.6.0.2/catalog/');
-define('DIR_SYSTEM', '/home/steven/Downloads/mycncart-mycncart-1.6.0.2/system/');
-define('DIR_IMAGE', '/home/steven/Downloads/mycncart-mycncart-1.6.0.2/image/');
-define('DIR_LANGUAGE', '/home/steven/Downloads/mycncart-mycncart-1.6.0.2/catalog/language/');
-define('DIR_TEMPLATE', '/home/steven/Downloads/mycncart-mycncart-1.6.0.2/catalog/view/theme/');
-define('DIR_CONFIG', '/home/steven/Downloads/mycncart-mycncart-1.6.0.2/system/config/');
-define('DIR_CACHE', '/home/steven/Downloads/mycncart-mycncart-1.6.0.2/system/storage/cache/');
-define('DIR_DOWNLOAD', '/home/steven/Downloads/mycncart-mycncart-1.6.0.2/system/storage/download/');
-define('DIR_LOGS', '/home/steven/Downloads/mycncart-mycncart-1.6.0.2/system/storage/logs/');
-define('DIR_MODIFICATION', '/home/steven/Downloads/mycncart-mycncart-1.6.0.2/system/storage/modification/');
-define('DIR_UPLOAD', '/home/steven/Downloads/mycncart-mycncart-1.6.0.2/system/storage/upload/');
+define('DIR_ROOT', '/home/steven/GitRepository/taorai/');
+define('DIR_APPLICATION', DIR_ROOT . 'catalog/');
+define('DIR_SYSTEM', DIR_ROOT . 'system/');
+define('DIR_IMAGE', DIR_ROOT . 'image/');
+define('DIR_LANGUAGE', DIR_ROOT . 'catalog/language/');
+define('DIR_TEMPLATE', DIR_ROOT . 'catalog/view/theme/');
+define('DIR_CONFIG', DIR_ROOT . 'system/config/');
+define('DIR_CACHE', DIR_ROOT . 'system/storage/cache/');
+define('DIR_DOWNLOAD', DIR_ROOT . 'system/storage/download/');
+define('DIR_LOGS', DIR_ROOT . 'system/storage/logs/');
+define('DIR_MODIFICATION', DIR_ROOT . 'system/storage/modification/');
+define('DIR_UPLOAD', DIR_ROOT . 'system/storage/upload/');
 
 // DB
 define('DB_DRIVER', 'mysqli');
