@@ -38,7 +38,7 @@
     <?php if ($logged) { ?>
     <a type="button" id="button-menu" class="pull-left"><i class="fa fa-indent fa-lg"></i></a>
     <?php } ?>
-    <a href="<?php echo $home; ?>" class="navbar-brand"><img src="view/image/logo.png" alt="<?php echo $heading_title; ?>" title="<?php echo $heading_title; ?>" /></a></div>
+    <a href="<?php echo $home; ?>" class="navbar-brand"><img src="view/image/LOGO_32*32.png" alt="<?php echo $heading_title; ?>" title="<?php echo $heading_title; ?>" /></a></div>
   <?php if ($logged) { ?>
   <ul class="nav pull-right">
     <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown"><?php if($alerts > 0) { ?><span class="label label-danger pull-left"><?php echo $alerts; ?></span><?php } ?> <i class="fa fa-bell fa-lg"></i></a>
@@ -55,10 +55,10 @@
         <li class="dropdown-header"><?php echo $text_product; ?></li>
         <li><a href="<?php echo $product; ?>"><span class="label label-danger pull-right"><?php echo $product_total; ?></span><?php echo $text_stock; ?></a></li>
         <li><a href="<?php echo $review; ?>"><span class="label label-danger pull-right"><?php echo $review_total; ?></span><?php echo $text_review; ?></a></li>
-        <li class="divider"></li>
+<!--         <li class="divider"></li>
         <li class="dropdown-header"><?php echo $text_affiliate; ?></li>
         <li><a href="<?php echo $affiliate_approval; ?>"><span class="label label-danger pull-right"><?php echo $affiliate_total; ?></span><?php echo $text_approval; ?></a></li>
-      </ul>
+ -->      </ul>
     </li>
     <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-home fa-lg"></i></a>
       <ul class="dropdown-menu dropdown-menu-right">
