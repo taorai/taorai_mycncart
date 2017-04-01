@@ -1,6 +1,6 @@
 <?php
 // Heading
-$_['heading_title']          = 'MyCnCart';
+$_['heading_title']          = 'taorai.asia';
 
 // Text
 $_['text_order']             = 'Orders';
@@ -17,7 +17,7 @@ $_['text_affiliate']         = 'Affiliates';
 $_['text_store']             = 'Stores';
 $_['text_front']             = 'Store Front';
 $_['text_help']              = 'Help';
-$_['text_homepage']          = 'MyCnCart Homepage';
+$_['text_homepage']          = 'taorai.asia Homepage';
 $_['text_support']           = 'Support Forum';
 $_['text_documentation']     = 'Documentation';
 $_['text_logout']            = 'Logout';
