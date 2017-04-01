@@ -1,6 +1,5 @@
 
-*.jpg
-
-*.png
 
 system/storage/cache/
+
+image/cache/

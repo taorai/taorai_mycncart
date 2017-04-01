@@ -410,7 +410,7 @@ class ControllerLocalisationDistrict extends Controller {
 		$this->load->model('localisation/geo_zone');
 		
 		
-		foreach ($this->request->post['selected'] as $city_id) {
+		foreach ($this->request->post['selected'] as $district_id) {
 			if ($this->config->get('config_district_id') == $district_id) {
 				$this->error['warning'] = $this->language->get('error_default');
 			}

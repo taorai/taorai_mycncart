@@ -45,11 +45,11 @@
                     <?php } else { ?>
                     <a href="<?php echo $sort_zone; ?>"><?php echo $column_zone; ?></a>
                     <?php } ?></td>
-                  <td class="text-left"><?php if ($sort == 'ct.name') { ?>
+<!--                   <td class="text-left"><?php if ($sort == 'ct.name') { ?>
                     <a href="<?php echo $sort_city; ?>" class="<?php echo strtolower($order); ?>"><?php echo $column_city; ?></a>
                     <?php } else { ?>
                     <a href="<?php echo $sort_city; ?>"><?php echo $column_city; ?></a>
-                    <?php } ?></td>
+                    <?php } ?></td> -->
                   <td class="text-left"><?php if ($sort == 'd.name') { ?>
                     <a href="<?php echo $sort_name; ?>" class="<?php echo strtolower($order); ?>"><?php echo $column_name; ?></a>
                     <?php } else { ?>
@@ -69,7 +69,7 @@
                     <?php } ?></td>
                   <td class="text-left"><?php echo $district['country']; ?></td>
                   <td class="text-left"><?php echo $district['zone']; ?></td>
-                  <td class="text-left"><?php echo $district['city']; ?></td>
+<!--                   <td class="text-left"><?php echo $district['city']; ?></td> -->
                   <td class="text-left"><?php echo $district['name']; ?></td>
                   <td class="text-right"><a href="<?php echo $district['edit']; ?>" data-toggle="tooltip" title="<?php echo $button_edit; ?>" class="btn btn-primary"><i class="fa fa-pencil"></i></a></td>
                 </tr>

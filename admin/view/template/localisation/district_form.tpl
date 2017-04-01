@@ -55,13 +55,13 @@
               </select>
             </div>
           </div>
-          <div class="form-group">
+<!--           <div class="form-group">
             <label class="col-sm-2 control-label" for="input-city"><?php echo $entry_city; ?></label>
             <div class="col-sm-10">
               <select name="city_id" id="input-city" class="form-control">
               </select>
             </div>
-          </div>
+          </div> -->
           <div class="form-group">
             <label class="col-sm-2 control-label" for="input-status"><?php echo $entry_status; ?></label>
             <div class="col-sm-10">
